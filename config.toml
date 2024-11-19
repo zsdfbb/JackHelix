@@ -1,0 +1,7 @@
+theme = "ayu_evolve"
+
+[editor]
+bufferline="always"
+
+[editor.soft-wrap]
+enable=true
