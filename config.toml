@@ -1,7 +1,17 @@
-theme = "ayu_evolve"
+theme = "github_dark_high_contrast"
 
 [editor]
 bufferline="always"
 
 [editor.soft-wrap]
 enable=true
+
+[editor.whitespace]
+render = "all"
+[editor.whitespace.characters]
+space = "·"
+nbsp = "⍽"
+nnbsp = "␣"
+tab = "→"
+newline = "⏎"
+tabpad = "·" # Tabs will look like "→···" (depending on tab width)
