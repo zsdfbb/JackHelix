@@ -2,6 +2,7 @@ theme = "github_dark_high_contrast"
 
 [editor]
 bufferline="always"
+true-color=true
 
 [editor.soft-wrap]
 enable=true
@@ -15,3 +16,7 @@ nnbsp = "␣"
 tab = "→"
 newline = "⏎"
 tabpad = "·" # Tabs will look like "→···" (depending on tab width)
+
+[keys.normal]
+# Alt-m: global search for current word
+"A-m"=["move_next_word_end", "move_prev_word_start", "search_selection", "global_search"]
